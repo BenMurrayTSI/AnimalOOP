@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Penguin {
+public class Penguin extends Bird {
 
     /////////////////////////////////Attributes////////////////////////////////////////
 
@@ -8,10 +8,15 @@ public class Penguin {
 
     /////////////////////////////////Constructors////////////////////////////////////////
 
-
+    public Penguin(String name) {
+        super(name);
+    }
 
     /////////////////////////////////Methods////////////////////////////////////////
 
+    @Override
+    public void eat(String food) {
 
+    }
 
 }

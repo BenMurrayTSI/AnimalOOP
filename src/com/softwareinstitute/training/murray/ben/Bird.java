@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Bird {
+public abstract class Bird extends Animal{
 
     /////////////////////////////////Attributes////////////////////////////////////////
 
@@ -8,10 +8,20 @@ public class Bird {
 
     /////////////////////////////////Constructors////////////////////////////////////////
 
-
+    public Bird(String name) {
+        super(name);
+    }
 
     /////////////////////////////////Methods////////////////////////////////////////
 
+    @Override
+    public void breathe() {
 
+    }
+
+    @Override
+    public Animal reproduce(Animal mother, Animal father) throws Exception {
+        return null;
+    }
 
 }

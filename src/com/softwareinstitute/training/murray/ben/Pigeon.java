@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Pigeon {
+public class Pigeon extends Bird implements Flying {
 
     /////////////////////////////////Attributes////////////////////////////////////////
 
@@ -12,6 +12,28 @@ public class Pigeon {
 
     /////////////////////////////////Methods////////////////////////////////////////
 
+    public Pigeon(String name) {
+        super(name);
+    }
 
+    @Override
+    public void eat(String food) {
+
+    }
+
+    @Override
+    public void takeOff() {
+
+    }
+
+    @Override
+    public void fly() {
+
+    }
+
+    @Override
+    public void landing() {
+
+    }
 
 }
